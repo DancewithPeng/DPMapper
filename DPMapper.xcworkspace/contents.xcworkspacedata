@@ -4,4 +4,7 @@
    <FileRef
       location = "group:DPMapper.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Examples/DPMapperExample/DPMapperExample.xcodeproj">
+   </FileRef>
 </Workspace>
