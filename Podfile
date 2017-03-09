@@ -4,4 +4,5 @@ use_frameworks!
 
 target 'DPMapper' do
     pod 'Alamofire'
+    pod 'Reflection'
 end

@@ -1,12 +1,15 @@
 PODS:
   - Alamofire (4.4.0)
+  - Reflection (0.14.3)
 
 DEPENDENCIES:
   - Alamofire
+  - Reflection
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Reflection: 93327e50981227ac33c18274fcbaed33b1127811
 
-PODFILE CHECKSUM: b2e6c2b1bf0f9857218a442b2e695ec76e7e5de7
+PODFILE CHECKSUM: 2a33fc9f807e2c013082d15fef580cf2a9be64d0
 
 COCOAPODS: 1.2.0

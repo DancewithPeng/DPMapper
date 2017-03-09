@@ -14,15 +14,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Reflection.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4DEEFB5F2E012B4ADBDA183D6D2806A2</key>
+		<key>2623C19B0421C372512FBEA07C28024D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CBAFDC5EB1E45B451393E9B7E48C7D04</key>
 		<dict>
 			<key>primary</key>
 			<true/>
