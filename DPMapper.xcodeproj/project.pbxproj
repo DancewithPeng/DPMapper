@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6EA1D5711E71A0E700A19375 /* DPMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA1D5671E71A0E700A19375 /* DPMapper.framework */; };
 		6EA1D5761E71A0E700A19375 /* DPMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA1D5751E71A0E700A19375 /* DPMapperTests.swift */; };
-		6EA1D5781E71A0E700A19375 /* DPMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA1D56A1E71A0E700A19375 /* DPMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,8 +23,6 @@
 
 /* Begin PBXFileReference section */
 		6EA1D5671E71A0E700A19375 /* DPMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DPMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EA1D56A1E71A0E700A19375 /* DPMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPMapper.h; sourceTree = "<group>"; };
-		6EA1D56B1E71A0E700A19375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EA1D5701E71A0E700A19375 /* DPMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA1D5751E71A0E700A19375 /* DPMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPMapperTests.swift; sourceTree = "<group>"; };
 		6EA1D5771E71A0E700A19375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +50,6 @@
 		6EA1D55D1E71A0E700A19375 = {
 			isa = PBXGroup;
 			children = (
-				6EA1D5691E71A0E700A19375 /* DPMapper */,
 				6EA1D5741E71A0E700A19375 /* DPMapperTests */,
 				6EA1D5681E71A0E700A19375 /* Products */,
 			);
@@ -66,15 +62,6 @@
 				6EA1D5701E71A0E700A19375 /* DPMapperTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		6EA1D5691E71A0E700A19375 /* DPMapper */ = {
-			isa = PBXGroup;
-			children = (
-				6EA1D56A1E71A0E700A19375 /* DPMapper.h */,
-				6EA1D56B1E71A0E700A19375 /* Info.plist */,
-			);
-			path = DPMapper;
 			sourceTree = "<group>";
 		};
 		6EA1D5741E71A0E700A19375 /* DPMapperTests */ = {
@@ -93,7 +80,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EA1D5781E71A0E700A19375 /* DPMapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +386,7 @@
 				6EA1D57D1E71A0E700A19375 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EA1D57E1E71A0E700A19375 /* Build configuration list for PBXNativeTarget "DPMapperTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +395,7 @@
 				6EA1D5801E71A0E700A19375 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
